@@ -54,3 +54,16 @@ explanation = explainer.explain_instance(x,
 `distribution=uniform` is the distribution setting for LIME. To use GLIME-Binomial, one can set `distribution=comb_exp`. 
 
 Users can also define their own sampling distributions in `utils/generic_utils.py`.
+
+
+### Citation
+If you find our work helpful in your research, please cite it as:
+```
+@article{tan2024glime,
+  title={GLIME: general, stable and local LIME explanation},
+  author={Tan, Zeren and Tian, Yang and Li, Jian},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2024}
+}
+```
